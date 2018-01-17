@@ -1,0 +1,41 @@
+This program produces ASCII character codes
+Enter a line of characters followed by return.
+		decimal	  octal	 hexdecimal
+	1 ---> 	49 	  61	 31
+		decimal	  octal	 hexdecimal
+	2 ---> 	50 	  62	 32
+		decimal	  octal	 hexdecimal
+	3 ---> 	51 	  63	 33
+		decimal	  octal	 hexdecimal
+	4 ---> 	52 	  64	 34
+		decimal	  octal	 hexdecimal
+	3 ---> 	51 	  63	 33
+		decimal	  octal	 hexdecimal
+	  ---> 	32 	  40	 20
+		decimal	  octal	 hexdecimal
+	t ---> 	116 	  164	 74
+		decimal	  octal	 hexdecimal
+	e ---> 	101 	  145	 65
+		decimal	  octal	 hexdecimal
+	s ---> 	115 	  163	 73
+		decimal	  octal	 hexdecimal
+	t ---> 	116 	  164	 74
+		decimal	  octal	 hexdecimal
+	  ---> 	32 	  40	 20
+		decimal	  octal	 hexdecimal
+	h ---> 	104 	  150	 68
+		decimal	  octal	 hexdecimal
+	w ---> 	119 	  167	 77
+		decimal	  octal	 hexdecimal
+	a ---> 	97 	  141	 61
+		decimal	  octal	 hexdecimal
+	n ---> 	110 	  156	 6e
+		decimal	  octal	 hexdecimal
+	g ---> 	103 	  147	 67
+		decimal	  octal	 hexdecimal
+	  ---> 	32 	  40	 20
+		decimal	  octal	 hexdecimal
+	+ ---> 	43 	  53	 2b
+		decimal	  octal	 hexdecimal
+	= ---> 	61 	  75	 3d
+Tne end...
