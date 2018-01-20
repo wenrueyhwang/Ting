@@ -23,7 +23,7 @@ void main()
 {
 	struct STOCK_INFO current;
 	strcpy(current.co_name, "IBM Inc."); 
-	// in string.h of strcpy(dest, source);
+	/* in string.h of strcpy(dest, source); */
 	strcpy(current.date,"01/01/87");
 	current.qnty = 100;
 	current.price = 101.50;
@@ -37,8 +37,8 @@ void display(struct STOCK_INFO *stock_rec)
 {
 	printf("Display the stock information:\n");
 	printf("company name = %s\n",\
-		stock_rec->co_name);
-	printf("date = %s\n", stock_rec->date);
+		(*stock_rec).co_name);
+	printf("date = %s\n", (*stock_rec).date);
 	printf("quantity = %d\n", stock_rec->qnty);
 	printf("price = %.1f\n", stock_rec->price);
 	printf("comments = %s\n", stock_rec->comments);
