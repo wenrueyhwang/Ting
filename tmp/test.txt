@@ -1,0 +1,7 @@
+This is a test for fprintf.....
+current file: Pstdio.c
+current date: Jan 29 2018
+current time: 22:01:13
+current line: 47
+current ansic: 1
+This is a test for fputs...

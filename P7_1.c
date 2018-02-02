@@ -1,7 +1,7 @@
 /*****************************************
  *		P7_1.c by GUN	 	 *
- * 	The program exercises		 *
- *	array and struct		 *
+ * 	The program shows		 *
+ *	to exercise array and struct	 *
  *					 *
  *					 *
  * This is from Wen-Ruey Hwang C book    *
@@ -10,43 +10,29 @@
 #define MAX 5
 struct RECODE
 {
-	unsigned number;
+	long number;
 	float chinese;
 	float math;
 	float program;
 };
-
 int main()
 {
+	
 	int i, ch;
-	struct RECODE student[MAX];
 
-	printf("Please input the RECODE data:\n");
+	struct RECODE student[MAX];
+	printf("Please input the RECODE data.\n");
 	for(i=0; i< MAX; i++)
+
+	printf("\n\t\t  The 9 * 9 multiplication table is :\n\n");
+	for(i=1;i<=9;i++)
 	{
-		printf("student[%d]", i+1);
-		scanf("%u", &student[i].number);
-		scanf("%f", &student[i].chinese);
-		scanf("%f", &student[i].math);
-		scanf("%f", &student[i].program);
-	}
-	getchar(); // This is for return key
-	while(1)
-	{
-		printf("Please choose the index of the student recode:");
-		ch = getchar() - '1';
-		if(ch >=0 && ch < 5)
+		for(j=1;j<=9;j++)
 		{
-			printf("the student[%d] is:\n", ch+1);
-			printf("\t number\t\t= %u\n", student[ch].number);
-			printf("\t chinese\t= %6.1f\n", student[ch].chinese);
-			printf("\t math\t\t= %6.1f\n", student[ch].math);
-			printf("\t program\t= %6.1f\n", student[ch].program);
-			printf("====================================\n");
-			getchar();
-			continue;
+			k = i * j;
+			printf("%d*%d=%2d ", i, j, k);
 		}
-		break;
+		printf("\n");
 	}
 }
 
