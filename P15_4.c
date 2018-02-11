@@ -24,7 +24,7 @@ int main()
 	printf("\nN = %2d\n",m);
 	tower(m, 'A','B','C');
 	printf("Do you want to display again ?");
-	printf("(Y/N) Please keh in_");
+	printf("(Y/N) Please key in_");
 	c = getchar();
 	} while( (c == 'y') || (c == 'Y'));
 }
